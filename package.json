@@ -1,0 +1,13 @@
+{
+  "name": "academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "browser-sync": "^2.26.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
