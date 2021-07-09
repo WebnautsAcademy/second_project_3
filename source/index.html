@@ -14,7 +14,7 @@
 				<img src="#" alt="logo" class="logo__img">
 			</a>
 			<button class="switch header__switch">
-
+				<img src="#" alt="switch icon image" class="switch__img">
 			</button>
 			<nav class="navigation header__navigation">
 				<ul class="navigation__list">
@@ -40,11 +40,11 @@
 			</button>
 		</div>
 	</header>
-	<main>
-		<div class="hero">
+	<main class="main">
+		<section class="hero">
 			<div class="wrapper hero__wrapper">
 				<div class="hero__left">
-					<h1 class="title hero__title">
+					<h1 class="hero__title">
 						Бизнес-Консалтинг
 					</h1>
 					<p class="hero__slogan">
@@ -55,8 +55,8 @@
 					<img src="#" alt="start screen image" class="hero__img">
 				</div>
 			</div>
-		</div>
-		<div class="about">
+		</section>
+		<section class="about">
 			<div class="wrapper about__wrapper">
 				<div class="about__left">
 					<h3 class="title about__title">
@@ -77,8 +77,8 @@
 					</button>
 				</div>
 			</div>
-		</div>
-		<div class="spec">
+		</section>
+		<section class="spec">
 			<div class=" wrapper spec__wrapper">
 				<div class="spec__left">
 					<h3 class="title spec__title">
@@ -91,6 +91,9 @@
 							<h5 class="spec__subtitle">
 								Увеличение продаж
 							</h5>
+							<button class="spec__btn">
+								<img src="#" alt="show text button" class="spec__btn-img">
+							</button>
 							<p class="spec__text">
 								По их почти единодушному мнению, самоактуализация откровенна. Толпа понимает объект.
 								Действие точно аннигилирует генезис. Самонаблюдение, конечно, притягивает филосовский
@@ -103,6 +106,9 @@
 							<h5 class="spec__subtitle">
 								Повышение узнаваемости
 							</h5>
+							<button class="spec__btn">
+								<img src="#" alt="show text button" class="spec__btn-img">
+							</button>
 							<p class="spec__text">
 
 							</p>
@@ -111,6 +117,9 @@
 							<h5 class="spec__subtitle">
 								Расширение компании
 							</h5>
+							<button class="spec__btn">
+								<img src="#" alt="show text button" class="spec__btn-img">
+							</button>
 							<p class="spec__text">
 
 							</p>
@@ -119,6 +128,9 @@
 							<h5 class="spec__subtitle">
 								Что-то еще
 							</h5>
+							<button class="spec__btn">
+								<img src="#" alt="show text button" class="spec__btn-img">
+							</button>
 							<p class="spec__text">
 
 							</p>
@@ -127,6 +139,9 @@
 							<h5 class="spec__subtitle">
 								И еще что-то
 							</h5>
+							<button class="spec__btn">
+								<img src="#" alt="show text button" class="spec__btn-img">
+							</button>
 							<p class="spec__text">
 
 							</p>
@@ -135,6 +150,9 @@
 							<h5 class="spec__subtitle">
 								И еще одно что-нибудь
 							</h5>
+							<button class="spec__btn">
+								<img src="#" alt="show text button" class="spec__btn-img">
+							</button>
 							<p class="spec__text">
 
 							</p>
@@ -142,8 +160,8 @@
 					</ol>
 				</div>
 			</div>
-		</div>
-		<div class="slider">
+		</section>
+		<section class="slider">
 			<div class="wrapper slider__wrapper">
 				<div class="slider__head">
 					<h2 class="slider__title">
@@ -160,14 +178,16 @@
 					<!--Здесь будет интегрирован слайдер -->
 				</div>
 			</div>
-		</div>
-		<div class="another">
+		</section>
+		<section class="another">
 			<div class="wrapper another__wrapper">
 				<div class="another__left">
-					<h3>Другие проекты</h3>
+					<h3 class="title another__title">Другие проекты</h3>
 				</div>
 				<div class="another__right">
-					<!--Здесь будет еще один интегрированый слайдер-->
+					<div class="another__slider">
+						<!--Здесь будет еще один интегрированый слайдер-->
+					</div>
 					<button class="btn another__btn-back">
 						Назад
 					</button>
@@ -176,8 +196,8 @@
 					</button>
 				</div>
 			</div>
-		</div>
-		<div class="feedback">
+		</section>
+		<section class="feedback">
 			<div class="wrapper feedback__wrapper">
 				<div class="feedback__head">
 					<h3 class="feedback__title">
@@ -223,15 +243,15 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="connect">
+		</section>
+		<section class="connect">
 			<div class="wrapper connect__wrapper">
 				<div class="connect__left">
 					<h3 class="title connect__title">
-
+						Напишите мне
 					</h3>
 					<p class="connect__desc">
-
+						Проконсультирую по любым вопросам, связанным с масштабированием бизнеса
 					</p>
 				</div>
 				<div class="connect__right">
@@ -240,29 +260,38 @@
 							<a href="#" class="connect__mail">
 								E-mail
 							</a>
+							<button class="connect__btn">
+								<img src="#" alt="tap to send" class="connect__img">
+							</button>
 						</li>
 						<li class="connect__item">
 							<a href="#" class="connect__facebook">
 								Facebook
 							</a>
+							<button class="connect__btn">
+								<img src="#" alt="tap to send" class="connect__img">
+							</button>
 						</li>
 						<li class="connect__item">
 							<a href="#" class="connect__telegram">
 								Telegram
 							</a>
+							<button class="connect__btn">
+								<img src="#" alt="tap to send" class="connect__img">
+							</button>
 						</li>
 					</ul>
 				</div>
 			</div>
-		</div>
+		</section>
 		<footer class="footer">
 			<div class="wrapper footer__wrapeer">
 				<p class="footer__rights">
 					2020. Все права защищены
 				</p>
-				<p class="footer__privacy">
+				<a class="footer__privacy">
 					Политика конфиденциальности
-				</p>
+				</a>
 			</div>
 		</footer>
 	</main>
