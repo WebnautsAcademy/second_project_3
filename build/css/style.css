@@ -1,7 +1,76 @@
 /*used in light theme in text color too*/
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #262626;
+}
+.header__wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+.header__logo {
+  margin-right: 36px;
+}
+.header__switch {
+  margin-right: 158px;
+}
 .header__btn {
   background-color: transparent;
   border: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #83C1FA;
+  padding: 23px 20px 18px;
+  color: #FFFFFF;
+  width: 263px;
+  border-radius: 40px;
+  height: 65px;
+  font-family: Bebas Neue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: auto;
+  text-transform: uppercase;
+}
+.navigation {
+  width: 135px;
+}
+.navigation__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.navigation__item {
+  padding: 6px 19px 9px;
+}
+.navigation__item--active {
+  border: 1px solid #83C1FA;
+  border-radius: 20px;
+}
+.navigation__link {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
