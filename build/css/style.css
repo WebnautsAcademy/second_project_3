@@ -1,0 +1,7 @@
+/*used in light theme in text color too*/
+.header__btn {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
