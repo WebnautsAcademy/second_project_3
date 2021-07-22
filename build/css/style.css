@@ -7,19 +7,19 @@
 }
 @font-face {
   font-family: 'BebasNeueRegular';
-  src: url("../fonts/bebas-neue/BebasNeueRegular.otf");
+  src: url("../../fonts/bebas-neue/BebasNeueRegular.otf");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'SFProDisplay-Medium';
-  src: url("../fonts/sfp-pro/SFProDisplay-Medium.ttf");
+  src: url("../../fonts/sfp-pro/SFProDisplay-Medium.ttf");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'SFProDisplay-Regular';
-  src: url("../fonts/SFProDisplay-Regular.woff");
+  src: url("../../fonts/sfp-pro/SFProDisplay-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
@@ -55,7 +55,7 @@ body {
   width: 263px;
   border-radius: 40px;
   height: 65px;
-  font-family: BebasNeueBold;
+  font-family: 'BebasNeueBold', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -81,7 +81,7 @@ body {
   border-radius: 20px;
 }
 .navigation__link {
-  font-family: SFProDisplay-Medium;
+  font-family: 'SFProDisplay-Medium';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
