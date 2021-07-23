@@ -65,6 +65,9 @@ body {
   margin-left: auto;
   text-transform: uppercase;
 }
+.header__btn:hover {
+  background-color: #83C1FA;
+}
 .navigation {
   width: 135px;
 }
@@ -76,7 +79,7 @@ body {
 .navigation__item {
   padding: 6px 16px 9px;
 }
-.navigation__item--active {
+.navigation__item:hover {
   border: 1px solid #83C1FA;
   border-radius: 20px;
 }
