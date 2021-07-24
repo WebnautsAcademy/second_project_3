@@ -2,9 +2,13 @@
     position: relative;
 }
 
+.feedback__title {
+    margin-bottom: 83px;
+}
+
 .feedback__btn {
     position: absolute;
-    top: 214px;
+    top: 250px;
     left: 68px;
     font-family: @bebasNeueR;
     font-size: 18px;
@@ -18,4 +22,49 @@
     border-radius: 50%;
     border-width: 1px;
     border-color: #83C1FA;
+    color: #333333;
+}
+
+.feedback__video {
+    margin-bottom: 16px;
+}
+
+.feedback__name {
+    font-family: @proDisplayM;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: @white;
+
+}
+
+.feedback__desc {
+    font-family: @proDisplayM;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+}
+
+.feedback__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 270px;
+}
+
+.feedback__wrapper::after {
+    content: "";
+    width: 1200px;
+    height: 1px;
+    background: #C4C4C4;
+    position: absolute;
+    top: 750px;
+    left: 15px;
 }

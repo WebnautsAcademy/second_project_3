@@ -300,13 +300,17 @@
 					</h3>
 				</div>
 				<button class="feedback__btn">
-					Смотреть отзыв
+					Смотреть <br> отзыв
 				</button>
 				<div class="feedback__content">
 					<div class="feedback__large">
-						<video src="#" width="615" height="346" class="feedback__video feedback__video--large">
+						<!-- <video src="#" width="615" height="346" class="feedback__video feedback__video--large">
 
-						</video>
+						</video> -->
+						<picture>
+							<img src="./img/feedback__video--large.jpg" srcset="./img/feedback__video--large@2x.jpg 2x"
+								alt="" width="615" height="346" class="feedback__video feedback__video--large">
+						</picture>
 						<p class="feedback__name feedback__name--large">
 							Уилл Смит
 						</p>
@@ -315,9 +319,14 @@
 						</p>
 					</div>
 					<div class="feedback__medium">
-						<video src="#" width="292" height="227" class="feedback__video feedback__video--medium">
+						<!-- <video src="#" width="292" height="227" class="feedback__video feedback__video--medium">
 
-						</video>
+						</video> -->
+						<picture>
+							<img src="./img/feedback__video--medium.jpg"
+								srcset="./img/feedback__video--medium@2x.jpg 2x" alt="" width="292" height="227"
+								class="feedback__video feedback__video--medium">
+						</picture>
 						<p class="feedback__name feedback__name--medium">
 							Марк Аврелий
 						</p>
@@ -326,9 +335,13 @@
 						</p>
 					</div>
 					<div class="feedback__small">
-						<video src="#" width="232" height="181" class="feedback__video feedback__video--small">
+						<!-- <video src="#" width="232" height="181" class="feedback__video feedback__video--small">
 
-						</video>
+						</video> -->
+						<picture>
+							<img src="./img/feedback__video--small.jpg" srcset="./img/feedback__video--small@2x.jpg 2x"
+								alt="" width="232" height="181" class="feedback__video feedback__video--small">
+						</picture>
 						<p class="feedback__name feedback__name--small">
 							Дядя Ваня
 						</p>
@@ -352,27 +365,33 @@
 				<div class="connect__right">
 					<ul class="connect__list">
 						<li class="connect__item">
-							<a href="#" class="connect__mail">
+							<a href="#" class="connect__link connect__link--mail">
 								E-mail
 							</a>
 							<button class="connect__btn">
-								<img src="#" alt="tap to send" width="43" height="43" class="connect__img">
+								<svg class="connect__img" width="43" height="43">
+									<use xlink:href="./img/sprite.svg#connect__btn"></use>
+								</svg>
 							</button>
 						</li>
 						<li class="connect__item">
-							<a href="#" class="connect__facebook">
+							<a href="#" class="connect__link connect__link--facebook">
 								Facebook
 							</a>
 							<button class="connect__btn">
-								<img src="#" alt="tap to send" width="43" height="43" class="connect__img">
+								<svg class="connect__img" width="43" height="43">
+									<use xlink:href="./img/sprite.svg#connect__btn"></use>
+								</svg>
 							</button>
 						</li>
 						<li class="connect__item">
-							<a href="#" class="connect__telegram">
+							<a href="#" class="connect__link connect__link--telegram">
 								Telegram
 							</a>
 							<button class="connect__btn">
-								<img src="#" alt="tap to send" width="43" height="43" class="connect__img">
+								<svg class="connect__img" width="43" height="43">
+									<use xlink:href="./img/sprite.svg#connect__btn"></use>
+								</svg>
 							</button>
 						</li>
 					</ul>
