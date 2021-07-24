@@ -15,10 +15,8 @@
 				<img src="./img/logo.png" width="46" height="19" alt="logo">
 			</a>
 			<button class="switch header__switch">
-				<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path
-						d="M11 17C9.4087 17 7.88258 16.3679 6.75736 15.2426C5.63214 14.1174 5 12.5913 5 11C5 9.4087 5.63214 7.88258 6.75736 6.75736C7.88258 5.63214 9.4087 5 11 5C12.5913 5 14.1174 5.63214 15.2426 6.75736C16.3679 7.88258 17 9.4087 17 11C17 12.5913 16.3679 14.1174 15.2426 15.2426C14.1174 16.3679 12.5913 17 11 17ZM10 0H12V3H10V0ZM10 19H12V22H10V19ZM2.515 3.929L3.929 2.515L6.05 4.636L4.636 6.05L2.515 3.93V3.929ZM15.95 17.364L17.364 15.95L19.485 18.071L18.071 19.485L15.95 17.364ZM18.071 2.514L19.485 3.929L17.364 6.05L15.95 4.636L18.071 2.515V2.514ZM4.636 15.95L6.05 17.364L3.929 19.485L2.515 18.071L4.636 15.95ZM22 10V12H19V10H22ZM3 10V12H0V10H3Z"
-						fill="white" />
+				<svg class="switch__sun" width="24" height="24">
+					<use xlink:href="./img/sprite.svg#switch__sun"></use>
 				</svg>
 			</button>
 			<nav class="navigation header__navigation">
@@ -97,14 +95,16 @@
 					</h3>
 				</div>
 				<div class="spec__right">
-					<ol class="spec__list">
+					<ul class="spec__list">
 						<li class="spec__item">
 							<div class="spec__info">
-								<h5 class="spec__subtitle">
+								<h5 class="spec__subtitle spec__subtitle--active">
 									Увеличение продаж
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
@@ -123,7 +123,9 @@
 									Повышение узнаваемости
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
@@ -136,7 +138,9 @@
 									Расширение компании
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
@@ -149,7 +153,9 @@
 									Что-то еще
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
@@ -162,7 +168,9 @@
 									И еще что-то
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
@@ -175,14 +183,16 @@
 									И еще одно что-нибудь
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
 
 							</p>
 						</li>
-					</ol>
+					</ul>
 				</div>
 			</div>
 		</section>
@@ -199,14 +209,13 @@
 						Дальше
 					</button>
 				</div>
-				<div class="slider__info">
-					<!--Здесь будет интегрирован слайдер -->
+				<div class="slider__body">
 					<div class="slider__counter">
 						<p class="slider__counter-first">
 							1
 						</p>
 						<p class="slider__counter-last">
-							/4
+							4
 						</p>
 					</div>
 					<div class="slider__info">
@@ -222,10 +231,22 @@
 							Действие точно аннигилирует генезис. Самонаблюдение, конечно, притягивает филосовский
 							гомеостаз.
 						</p>
-						<a href="#" class="slider__link"></a>
+						<div class="slider__item">
+							<button class="slider__icon">
+								<svg class="slider__svg" width="24" height="24">
+									<use xlink:href="./img/sprite.svg#slider__icon"></use>
+								</svg>
+							</button>
+							<a href="https://webnauts.pro/" class="slider__link">
+								webnauts.pro
+							</a>
+						</div>
 					</div>
 					<div class="slider__picture">
-						<img src="#" width="615" height="671" alt="slider image" class="slider__img">
+						<picture>
+							<img src="./img/slider__picture.jpg" srcset="./img/slider__picture@2x.jpg 2x" width="615"
+								height="671" alt="slider image" class="slider__img">
+						</picture>
 					</div>
 				</div>
 			</div>
@@ -240,7 +261,8 @@
 				<div class="another__right">
 					<div class="another__slider">
 						<div class="another__head">
-							<img src="#" alt="logo" width="200" height="36" class="another__logo">
+							<img src="./img/another__logo.png" alt="logo" width="282" height="113"
+								class="another__logo">
 							<p class="another__counter">
 								01
 							</p>
@@ -260,10 +282,10 @@
 						</div>
 					</div>
 					<div class="another__footer">
-						<button class="btn another__btn another__btn--back">
+						<button class="slider__btn another__btn another__btn--back">
 							Назад
 						</button>
-						<button class="btn another__btn another__btn--next">
+						<button class="slider__btn another__btn another__btn--next">
 							Дальше
 						</button>
 					</div>

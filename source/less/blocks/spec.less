@@ -1,4 +1,5 @@
 .spec__wrapper {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -26,4 +27,46 @@
     letter-spacing: 0em;
     text-align: left;
     color: @white;
+    margin-bottom: 56px;
+}
+.spec__item {
+    .list-reset;
+}
+.spec__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.spec__info::after {
+    content: "";
+    width: 615px;
+    height: 1px;
+    background: #4F4F4F;
+    margin-top: 15px;
+}
+.spec__icon {
+    fill: @white;
+}
+.spec__btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3B3B3B;
+    border: 0;
+}
+
+.spec__subtitle--active {
+    color: #83C1FA;
+}
+
+.spec__wrapper::after {
+    content: "";
+    width: 1200px;
+    height: 1px;
+    background: #C4C4C4;
+    position: absolute;
+    top: 933px;
+    left: 15px;
 }

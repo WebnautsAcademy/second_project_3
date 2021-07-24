@@ -43,19 +43,6 @@ gulp.task("watch", () => {
   gulp.watch("./source/*.html").on("change", browserSync.reload);
 });
 
-//Таск по умолчанию, Запускает del, styles, scripts и watch
-gulp.task(
-  "start",
-  gulp.series(gulp.parallel("imagemin", "html", "css"), "watch")
-);
-
-// const sass = require("gulp-sass");
-// gulp.task("css", function () {
-//   return gulp.src("source/scss/style.scss")
-//     .pipe(sass())
-//     .pipe(gulp.dest("build/css"));
-// });
-
 gulp.task("sprite", function () {
   return gulp.src("source/img/icons/*.svg")
     .pipe(imagemin([imagemin.svgo()]))
@@ -65,3 +52,16 @@ gulp.task("sprite", function () {
     .pipe(rename("sprite.svg"))
     .pipe(gulp.dest("build/img"));
 });
+
+//Таск по умолчанию, Запускает del, styles, scripts и watch
+gulp.task(
+  "start",
+  gulp.series(gulp.parallel("imagemin", "sprite", "html", "css"), "watch")
+);
+
+// const sass = require("gulp-sass");
+// gulp.task("css", function () {
+//   return gulp.src("source/scss/style.scss")
+//     .pipe(sass())
+//     .pipe(gulp.dest("build/css"));
+// });
