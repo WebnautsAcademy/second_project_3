@@ -127,8 +127,31 @@ body {
 .another__txt--1 {
   margin-bottom: 24px;
 }
-.another__btn--back {
+.btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 85px;
+  height: 85px;
+  font-family: 'BebasNeueRegular', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  background: transparent;
   margin-right: 31px;
+}
+.btn:last-child {
+  margin-right: 0;
+}
+.btn:hover {
+  background: #83C1FA;
 }
 .connect__wrapper {
   position: relative;
@@ -273,15 +296,8 @@ body {
   letter-spacing: 0em;
   text-align: right;
   color: #A0A0A0;
-}
-.footer__link::after {
-  position: absolute;
-  content: "";
-  width: 175px;
-  height: 1px;
-  background: #C4C4C4;
-  top: 21px;
-  left: 0;
+  padding-bottom: 7px;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.5);
 }
 .header__wrapper {
   display: flex;
@@ -390,7 +406,6 @@ body {
   box-shadow: 8px 7px #83C1FA;
 }
 .navigation {
-  width: 135px;
   margin-bottom: 106px;
 }
 .navigation__list {
@@ -414,7 +429,7 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   text-align: center;
-  padding: 6px 16px 9px;
+  padding: 6px 19px 9px;
 }
 .navigation__link:hover {
   border: 1px solid #83C1FA;
@@ -445,24 +460,6 @@ body {
   text-shadow: 6px 6px #83C1FA;
   margin-right: 371px;
 }
-.slider__btn {
-  width: 85px;
-  height: 85px;
-  font-family: 'BebasNeueRegular', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #FFFFFF;
-  border-radius: 50%;
-  border: 1px solid #FFFFFF;
-  background: transparent;
-}
-.slider__btn:hover {
-  background: #83C1FA;
-}
 .slider__body {
   display: flex;
   justify-content: space-between;
@@ -473,7 +470,7 @@ body {
   max-width: 363px;
   margin-right: 117px;
 }
-.slider__counter-first {
+.slider__counter--first {
   margin-top: 0;
   font-family: 'BebasNeueBold', sans-serif;
   font-size: 144px;
@@ -487,7 +484,7 @@ body {
   top: 0;
   left: 0;
 }
-.slider__counter-first::after {
+.slider__counter--first::after {
   content: "";
   width: 190px;
   height: 1px;
@@ -497,7 +494,7 @@ body {
   top: 110px;
   left: 0px;
 }
-.slider__counter-last {
+.slider__counter--last {
   font-family: 'BebasNeueBold', sans-serif;
   font-size: 48px;
   font-style: normal;

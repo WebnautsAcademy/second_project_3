@@ -10,17 +10,17 @@
 }
 
 .header__switch {
-    .btn-reset;
+    .btn-reset();
     fill: @white;
     margin-right: 158px;
-}
 
-.header__switch:hover {
-    fill: #F2C94C;
+    &:hover {
+        fill: #F2C94C;
+    } 
 }
 
 .header__btn {
-    .btn-reset;
+    .btn-reset();
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,8 +39,8 @@
     text-align: left;
     margin-left: auto;
     text-transform: uppercase;
-}
 
-.header__btn:hover {
-    background-color: #83C1FA;
+    &:hover {
+        background-color: #83C1FA;
+    }
 }
