@@ -7,13 +7,12 @@
     .list-reset;
 }
 
-.navigation__item{
-    padding: 6px 16px 9px;
+.navigation__item {
+    margin-bottom: 23px;
+}
 
-    &:hover {
-        border: 1px solid #83C1FA;
-        border-radius: 20px;
-    }
+.navigation__item:last-child {
+    margin-bottom: 0;
 }
 
 .navigation__link{
@@ -26,4 +25,10 @@
     color: @white;
     text-decoration: none;
     text-align: center;
+    padding: 6px 16px 9px;
+    &:hover {
+        border: 1px solid #83C1FA;
+        box-sizing: border-box;
+        border-radius: 110%;
+    }
 }

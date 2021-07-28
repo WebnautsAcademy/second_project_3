@@ -1,9 +1,15 @@
-.slider {
-    margin-top: 271px;
-}
-
 .slider__wrapper {
     position: relative;
+    padding-top: 50px;
+    padding-bottom: 220px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.slider__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 72px;
 }
 
 .slider__title {
@@ -17,13 +23,6 @@
     color: @white;
     text-shadow: 6px 6px #83C1FA;
     margin-right: 371px;
-}
-
-.slider__head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 72px;
 }
 
 .slider__btn {
@@ -72,21 +71,6 @@
     left: 0;
 }
 
-.slider__counter-last {
-    font-family: @bebasNeueB;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: left;
-    color:#4F4F4F;
-    ;
-    position: absolute;
-    top: 90px;
-    left: 128px;
-}
-
 .slider__counter-first::after{
     content: "";
     width: 190px;
@@ -96,6 +80,20 @@
     transform: rotate(-45deg);
     top: 110px;
     left: 0px;
+}
+
+.slider__counter-last {
+    font-family: @bebasNeueB;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#4F4F4F;
+    position: absolute;
+    top: 90px;
+    left: 128px;
 }
 
 .slider__info {
@@ -126,10 +124,24 @@
     margin-bottom: 50px;
 }
 
-.slider__img {
-    border: 10px solid #000000;
-    border-radius: 28px;
-    margin-bottom: 270px;
+.slider__item{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.slider__icon{
+    .btn-reset;
+    margin-right: 15px;
+}
+
+.slider__svg{
+    width: 24px;
+    height: 24px;
+    fill: @white;
+}
+
+.slider__svg:hover{
+    fill: #83C1FA;
 }
 
 .slider__link {
@@ -147,31 +159,7 @@
     color: #83C1FA;
 }
 
-.slider__icon{
-    .btn-reset;
-    margin-right: 15px;
-}
-
-.slider__svg{
-    width: 24px;
-    height: 24px;
-    fill: @white;
-}
-.slider__svg:hover{
-    fill: #83C1FA;
-}
-
-.slider__item{
-    display: flex;
-    justify-content: flex-start;
-}
-
-.slider__wrapper::after{
-    content: "";
-    width: 1200px;
-    height: 1px;
-    background: #C4C4C4;
-    position: absolute;
-    top: 1152px;
-    left: 15px;
+.slider__img {
+    border: 10px solid #000000;
+    border-radius: 28px;
 }
