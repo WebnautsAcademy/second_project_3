@@ -1,23 +1,23 @@
 @font-face {
-  font-family: 'BebasNeueBold';
+  font-family: 'Bebas Neue';
   src: url("../../fonts/bebas-neue/BebasNeueBold.otf");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: 'BebasNeueRegular';
+  font-family: 'Bebas Neue';
   src: url("../../fonts/bebas-neue/BebasNeueRegular.otf");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: 'SFProDisplay-Medium';
+  font-family: 'SF Pro Display';
   src: url("../../fonts/sfp-pro/SFProDisplay-Medium.ttf");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: 'SFProDisplay-Regular';
+  font-family: 'SF Pro Display';
   src: url("../../fonts/sfp-pro/SFProDisplay-Regular.ttf");
   font-weight: 400;
   font-style: normal;
@@ -45,18 +45,12 @@ body {
 .about__title {
   margin-bottom: 170px;
 }
-.about__img {
-  width: 213px;
-  height: 281px;
-  transform: rotate(-15deg);
-  box-shadow: 8px 7px #83C1FA;
-}
 .about__right {
   max-width: 615px;
   position: relative;
 }
 .about__text {
-  font-family: 'SFProDisplay-Regular';
+  font-family: 'SF Pro Display';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -70,7 +64,7 @@ body {
   position: absolute;
   top: 241px;
   left: 429px;
-  font-family: 'BebasNeueRegular', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -104,7 +98,7 @@ body {
   margin-bottom: 40px;
 }
 .another__counter {
-  font-family: 'BebasNeueBold', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
@@ -114,7 +108,7 @@ body {
   color: #4F4F4F;
 }
 .another__txt {
-  font-family: 'SFProDisplay-Regular';
+  font-family: 'SF Pro Display';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -134,7 +128,7 @@ body {
   margin: 0;
   width: 85px;
   height: 85px;
-  font-family: 'BebasNeueRegular', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -164,7 +158,7 @@ body {
   margin-right: 468px;
 }
 .connect__desc {
-  font-family: 'SFProDisplay-Regular';
+  font-family: 'SF Pro Display';
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -188,7 +182,7 @@ body {
 }
 .connect__link {
   text-decoration: none;
-  font-family: 'BebasNeueBold', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -229,7 +223,7 @@ body {
   position: absolute;
   top: 250px;
   left: 68px;
-  font-family: 'BebasNeueRegular', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -252,7 +246,7 @@ body {
   margin-bottom: 16px;
 }
 .feedback__name {
-  font-family: 'SFProDisplay-Medium';
+  font-family: 'SF Pro Display';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -262,7 +256,7 @@ body {
   color: #FFFFFF;
 }
 .feedback__desc {
-  font-family: 'SFProDisplay-Medium';
+  font-family: 'SF Pro Display';
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -276,7 +270,7 @@ body {
   justify-content: space-between;
 }
 .footer__rights {
-  font-family: 'SFProDisplay-Medium';
+  font-family: 'SF Pro Display';
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -288,7 +282,7 @@ body {
 }
 .footer__link {
   position: relative;
-  font-family: 'SFProDisplay-Medium';
+  font-family: 'SF Pro Display';
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -333,7 +327,7 @@ body {
   width: 263px;
   border-radius: 40px;
   height: 65px;
-  font-family: 'BebasNeueBold', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -356,7 +350,7 @@ body {
 .hero__word--1 {
   position: absolute;
   top: 98px;
-  font-family: 'BebasNeueBold', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 190px;
   font-style: normal;
   font-weight: 700;
@@ -369,7 +363,7 @@ body {
 .hero__word--2 {
   position: absolute;
   top: 271px;
-  font-family: 'BebasNeueBold', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 190px;
   font-style: normal;
   font-weight: 700;
@@ -382,7 +376,7 @@ body {
 .hero__desc {
   padding-top: 529px;
   padding-left: 280px;
-  font-family: 'SFProDisplay-Medium';
+  font-family: 'SF Pro Display';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -420,7 +414,7 @@ body {
   margin-bottom: 0;
 }
 .navigation__link {
-  font-family: 'SFProDisplay-Medium';
+  font-family: 'SF Pro Display';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -449,7 +443,7 @@ body {
   margin-bottom: 72px;
 }
 .slider__title {
-  font-family: 'BebasNeueBold', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 190px;
   font-style: normal;
   font-weight: 700;
@@ -472,7 +466,7 @@ body {
 }
 .slider__counter--first {
   margin-top: 0;
-  font-family: 'BebasNeueBold', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 144px;
   font-style: normal;
   font-weight: 700;
@@ -495,7 +489,7 @@ body {
   left: 0px;
 }
 .slider__counter--last {
-  font-family: 'BebasNeueBold', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -512,7 +506,7 @@ body {
 }
 .slider__subtitle {
   margin-top: 0px;
-  font-family: 'BebasNeueRegular', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -522,7 +516,7 @@ body {
   color: #FFFFFF;
 }
 .slider__desc {
-  font-family: 'SFProDisplay-Regular';
+  font-family: 'Bebas Neue';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -552,7 +546,7 @@ body {
   fill: #83C1FA;
 }
 .slider__link {
-  font-family: 'SFProDisplay-Regular';
+  font-family: 'SF Pro Display';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -604,7 +598,7 @@ body {
   fill: #FFFFFF;
 }
 .spec__subtitle {
-  font-family: 'SFProDisplay-Medium';
+  font-family: 'SF Pro Display';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -617,7 +611,7 @@ body {
   color: #83C1FA;
 }
 .spec__text {
-  font-family: 'SFProDisplay-Regular';
+  font-family: 'SF Pro Display';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -628,7 +622,7 @@ body {
   margin-bottom: 56px;
 }
 .title {
-  font-family: 'BebasNeueRegular', sans-serif;
+  font-family: 'Bebas Neue';
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
