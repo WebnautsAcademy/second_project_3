@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
 	<title>academy project</title>
 </head>
 
@@ -11,10 +12,12 @@
 	<header class="header">
 		<div class="wrapper header__wrapper">
 			<a href="#" class="logo header__logo">
-				<img src="#" alt="logo" width="46" height="19" class="logo__img">
+				<img src="./img/logo.png" width="46" height="19" alt="logo">
 			</a>
 			<button class="switch header__switch">
-				<img src="#" alt="switch icon image" width="24" height="24" class="switch__img">
+				<svg class="switch__sun" width="24" height="24">
+					<use xlink:href="./img/sprite.svg#switch__sun"></use>
+				</svg>
 			</button>
 			<nav class="navigation header__navigation">
 				<ul class="navigation__list">
@@ -35,7 +38,7 @@
 					</li>
 				</ul>
 			</nav>
-			<button class="btn header__btn">
+			<button class="header__btn">
 				Связаться со мной
 			</button>
 		</div>
@@ -45,14 +48,16 @@
 			<div class="wrapper hero__wrapper">
 				<div class="hero__left">
 					<h1 class="hero__title">
-						Бизнес-Консалтинг
+						<span class="hero__word hero__word--1">Бизнес-</span>
+						<span class="hero__word hero__word--2">Консалтинг</span>
 					</h1>
 					<p class="hero__desc">
 						Консультирую по вопросам масштабирования бизнеса
 					</p>
 				</div>
 				<div class="hero__right">
-					<img src="#" alt="start screen image" width="608" height="569" class="hero__img">
+					<img src="./img/hero__img.jpg" srcset="./img/hero__img@2x.jpg 2x" alt="start screen image"
+						width="608" height="569" class="hero__img">
 				</div>
 			</div>
 		</section>
@@ -62,7 +67,12 @@
 					<h3 class="title about__title">
 						Обо мне
 					</h3>
-					<img src="#" alt="photo" width="213" height="281" class="about__img">
+					<div class="about__test">
+						<picture class="about__picture">
+							<img src="./img/about__img.png" srcset="./img/about__img2x.png 2x" alt="photo"
+								class="about__img">
+						</picture>
+					</div>
 				</div>
 				<div class="about__right">
 					<p class="about__text">
@@ -71,8 +81,9 @@
 						почти единодушному мнению, самоактуализация откровенна. Толпа понимает объект. Действие точно
 						аннигилирует генезис. Самонаблюдение, конечно, притягивает филосовский гомеостаз.
 					</p>
-					<video src="#" width="615" height="396" class="about__video"></video>
-					<button class="btn about__btn">
+					<img src="./img/about__video.jpg" srcset="./img/about__video@2x.jpg 2x" width="615" height="396"
+						class="about__video">
+					<button class="about__btn">
 						Смотреть
 					</button>
 				</div>
@@ -86,14 +97,16 @@
 					</h3>
 				</div>
 				<div class="spec__right">
-					<ol class="spec__list">
+					<ul class="spec__list">
 						<li class="spec__item">
 							<div class="spec__info">
-								<h5 class="spec__subtitle">
+								<h5 class="spec__subtitle spec__subtitle--active">
 									Увеличение продаж
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
@@ -112,7 +125,9 @@
 									Повышение узнаваемости
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
@@ -125,7 +140,9 @@
 									Расширение компании
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
@@ -138,7 +155,9 @@
 									Что-то еще
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
@@ -151,7 +170,9 @@
 									И еще что-то
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
@@ -164,14 +185,16 @@
 									И еще одно что-нибудь
 								</h5>
 								<button class="spec__btn">
-									<img src="#" alt="show text button" class="spec__show">
+									<svg class="spec__icon" width="24" height="24">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
 								</button>
 							</div>
 							<p class="spec__text">
 
 							</p>
 						</li>
-					</ol>
+					</ul>
 				</div>
 			</div>
 		</section>
@@ -181,21 +204,20 @@
 					<h2 class="slider__title">
 						Webnauts
 					</h2>
-					<button class="btn slider__btn slider__btn--back">
+					<button class="btn">
 						Назад
 					</button>
-					<button class="btn slider__btn slider__btn--next">
+					<button class="btn">
 						Дальше
 					</button>
 				</div>
-				<div class="slider__info">
-					<!--Здесь будет интегрирован слайдер -->
+				<div class="slider__body">
 					<div class="slider__counter">
-						<p class="slider__counter-first">
+						<p class="slider__counter--first">
 							1
 						</p>
-						<p class="slider__counter-last">
-							/4
+						<p class="slider__counter--last">
+							4
 						</p>
 					</div>
 					<div class="slider__info">
@@ -211,10 +233,22 @@
 							Действие точно аннигилирует генезис. Самонаблюдение, конечно, притягивает филосовский
 							гомеостаз.
 						</p>
-						<a href="#" class="slider__link"></a>
+						<div class="slider__item">
+							<button class="slider__icon">
+								<svg class="slider__svg" width="24" height="24">
+									<use xlink:href="./img/sprite.svg#slider__icon"></use>
+								</svg>
+							</button>
+							<a href="https://webnauts.pro/" class="slider__link">
+								webnauts.pro
+							</a>
+						</div>
 					</div>
 					<div class="slider__picture">
-						<img src="#" width="615" height="671" alt="slider image" class="slider__img">
+						<picture class="slider__picture">
+							<img src="./img/slider__picture.jpg" srcset="./img/slider__picture@2x.jpg 2x"
+								alt="slider image" class="slider__img">
+						</picture>
 					</div>
 				</div>
 			</div>
@@ -229,7 +263,8 @@
 				<div class="another__right">
 					<div class="another__slider">
 						<div class="another__head">
-							<img src="#" alt="logo" width="200" height="36" class="another__logo">
+							<img src="./img/another__logo.png" alt="logo" width="282" height="113"
+								class="another__logo">
 							<p class="another__counter">
 								01
 							</p>
@@ -249,10 +284,10 @@
 						</div>
 					</div>
 					<div class="another__footer">
-						<button class="btn another__btn another__btn--back">
+						<button class="btn">
 							Назад
 						</button>
-						<button class="btn another__btn another__btn--next">
+						<button class="btn">
 							Дальше
 						</button>
 					</div>
@@ -266,14 +301,18 @@
 						Отзывы клиентов
 					</h3>
 				</div>
-				<button class="btn feedback__btn">
-					Смотреть отзыв
+				<button class="feedback__btn">
+					Смотреть <br> отзыв
 				</button>
 				<div class="feedback__content">
 					<div class="feedback__large">
-						<video src="#" width="615" height="346" class="feedback__video feedback__video--large">
+						<!-- <video src="#" width="615" height="346" class="feedback__video feedback__video--large">
 
-						</video>
+						</video> -->
+						<picture class="feedback__picture">
+							<img src="./img/feedback__video--large.jpg" srcset="./img/feedback__video--large@2x.jpg 2x"
+								alt="video" class="feedback__video feedback__video--large">
+						</picture>
 						<p class="feedback__name feedback__name--large">
 							Уилл Смит
 						</p>
@@ -282,9 +321,14 @@
 						</p>
 					</div>
 					<div class="feedback__medium">
-						<video src="#" width="292" height="227" class="feedback__video feedback__video--medium">
+						<!-- <video src="#" width="292" height="227" class="feedback__video feedback__video--medium">
 
-						</video>
+						</video> -->
+						<picture class="feedback__picture">
+							<img src="./img/feedback__video--medium.jpg"
+								srcset="./img/feedback__video--medium@2x.jpg 2x" alt="video"
+								class="feedback__video feedback__video--medium">
+						</picture>
 						<p class="feedback__name feedback__name--medium">
 							Марк Аврелий
 						</p>
@@ -293,9 +337,13 @@
 						</p>
 					</div>
 					<div class="feedback__small">
-						<video src="#" width="232" height="181" class="feedback__video feedback__video--small">
+						<!-- <video src="#" width="232" height="181" class="feedback__video feedback__video--small">
 
-						</video>
+						</video> -->
+						<picture class="feedback__picture">
+							<img src="./img/feedback__video--small.jpg" srcset="./img/feedback__video--small@2x.jpg 2x"
+								alt="video" class="feedback__video feedback__video--small">
+						</picture>
 						<p class="feedback__name feedback__name--small">
 							Дядя Ваня
 						</p>
@@ -319,27 +367,33 @@
 				<div class="connect__right">
 					<ul class="connect__list">
 						<li class="connect__item">
-							<a href="#" class="connect__mail">
+							<a href="#" class="connect__link connect__link--mail">
 								E-mail
 							</a>
 							<button class="connect__btn">
-								<img src="#" alt="tap to send" width="43" height="43" class="connect__img">
+								<svg class="connect__img" width="43" height="43">
+									<use xlink:href="./img/sprite.svg#connect__btn"></use>
+								</svg>
 							</button>
 						</li>
 						<li class="connect__item">
-							<a href="#" class="connect__facebook">
+							<a href="#" class="connect__link connect__link--facebook">
 								Facebook
 							</a>
 							<button class="connect__btn">
-								<img src="#" alt="tap to send" width="43" height="43" class="connect__img">
+								<svg class="connect__img" width="43" height="43">
+									<use xlink:href="./img/sprite.svg#connect__btn"></use>
+								</svg>
 							</button>
 						</li>
 						<li class="connect__item">
-							<a href="#" class="connect__telegram">
+							<a href="#" class="connect__link connect__link--telegram">
 								Telegram
 							</a>
 							<button class="connect__btn">
-								<img src="#" alt="tap to send" width="43" height="43" class="connect__img">
+								<svg class="connect__img" width="43" height="43">
+									<use xlink:href="./img/sprite.svg#connect__btn"></use>
+								</svg>
 							</button>
 						</li>
 					</ul>
@@ -347,7 +401,7 @@
 			</div>
 		</section>
 		<footer class="footer">
-			<div class="wrapper footer__wrapeer">
+			<div class="wrapper footer__wrapper">
 				<p class="footer__rights">
 					2020. Все права защищены
 				</p>
