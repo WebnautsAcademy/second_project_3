@@ -408,6 +408,9 @@ body {
 }
 @media (max-width: 768px) {
   .navigation {
+    display: none;
+    max-width: 375px;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -418,6 +421,22 @@ body {
     padding-top: 130px;
     padding-bottom: 50px;
     background-color: #83C1FA;
+    z-index: 99;
+  }
+}
+.navigation__close {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+@media (max-width: 768px) {
+  .navigation__close {
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: 15px;
   }
 }
 .navigation__list {

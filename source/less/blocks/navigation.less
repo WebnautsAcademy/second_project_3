@@ -6,6 +6,9 @@
 
 
     @media (max-width: @medium) {
+        display: none;
+        max-width: 375px;
+        width: 100%;
         position: fixed;
         top: 0;
         left: 0;
@@ -16,6 +19,19 @@
         padding-top: 130px;
         padding-bottom: 50px;
         background-color: #83C1FA;
+        z-index: 99;
+    }
+}
+
+.navigation__close {
+    .btn-reset();
+    display: none;
+
+    @media (max-width: @medium) {
+        display: block;
+        position: absolute;
+        top: 24px;
+        right: 15px;
     }
 }
 
@@ -78,7 +94,6 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    // margin-left: auto;
     text-transform: uppercase;
 
     &:hover {
