@@ -5,13 +5,19 @@
     padding-top: 50px;
 
     @media (max-width: @medium) {
-        display: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 110px;
     }
 }
 
 .connect__title {
     margin-bottom: 25px;
     margin-right: 468px;
+
+    @media (max-width: @medium) {
+        margin-right: 0;
+    }
 }
 
 .connect__desc {
@@ -25,6 +31,10 @@
     color: @white;
     max-width: 371px;
     opacity: 0.4;
+
+    @media (max-width: @medium) {
+        margin-bottom: 84px;
+    }
 }
 
 .connect__item {
@@ -35,7 +45,12 @@
 
     &:last-child {
         margin-bottom: 213px;
+        
+        @media (max-width: @medium) {
+            margin-bottom: 0;
+        }
     }
+
 }
 
 .connect__link {
