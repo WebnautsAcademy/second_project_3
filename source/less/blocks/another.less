@@ -6,10 +6,23 @@
     padding-top: 50px;
     padding-bottom: 220px;
     border-bottom: 1px solid #C4C4C4;
-}
 
+    @media (max-width: @medium) {
+        flex-direction: column;
+        padding-bottom: 110px;
+    }
+}
+.another__title {
+    @media (max-width: @medium) {
+        margin-bottom: 64px;
+    }
+}
 .another__right {
     max-width: 615px;
+
+    @media (max-width: @medium) {
+        max-width: 345px;
+    }
 }
 
 .another__head {
@@ -27,6 +40,9 @@
     letter-spacing: 0em;
     text-align: left;
     color: #4F4F4F;
+    @media (max-width: @medium) {
+        display: none;
+    }
 }
 
 .another__txt {

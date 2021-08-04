@@ -1,6 +1,14 @@
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: @medium) {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        max-width: 345px;
+        padding-bottom: 39px;
+    }
 }
 
 .footer__rights {
@@ -13,6 +21,9 @@
     text-align: left;
     color: #A0A0A0;
     margin-bottom: 59px;
+    @media (max-width: @medium) {
+        margin-bottom: 14px;
+    }
 }
 
 .footer__link {
